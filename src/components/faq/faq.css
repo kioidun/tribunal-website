@@ -1,0 +1,40 @@
+.faq{
+    background: var(--background);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 20px;
+
+    
+}
+.color_link a{
+    color: black;
+}
+.faq h4{
+    color: black;
+}
+.faq div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq_icon{
+    background: transparent;
+    font-size: 1.5rem; 
+}
+.faq p{
+    margin-top: 1.5rem;
+    white-space: pre-line;
+    
+}
+@media(max-width:600px){
+    .faq{
+        background: var(--background);
+        padding: 2rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-bottom: 20px;
+    
+        
+    }
+}

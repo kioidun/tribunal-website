@@ -1,0 +1,47 @@
+/* .arra{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+  
+  
+   width: 100%;
+   position: absolute;
+   margin-left: -800px;
+   margin-top: 25px;
+   height: auto;
+   align-items: center;
+   
+    
+ 
+     background: #ccb83a;
+ 
+ 
+ }
+ 
+ .dropdown-menu{
+   
+    
+   
+ }
+  .dropdown-menu li{
+  
+     cursor: pointer;
+     margin: 10px;
+     
+ }
+ .dropdown-menu.clicked{
+     display: none;
+ }
+ /*
+ .dropdown-menu li:hover{
+     background: red;
+ }
+ 
+ .dropdown-link{
+     display: block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     padding: 16px;
+     color:#fff;
+ } */
+  

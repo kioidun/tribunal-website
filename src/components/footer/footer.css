@@ -1,0 +1,90 @@
+ footer{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+
+    /* ff 3.6+ */
+ background: -moz-radial-gradient(circle at 3% 25%, rgba(139, 130, 47, 1) 0%, rgba(206, 186, 57, 1) 100%);
+
+ /* safari 5.1+,chrome 10+ */
+ background: -webkit-radial-gradient(circle at 3% 25%, rgba(139, 130, 47, 1) 0%, rgba(206, 186, 57, 1) 100%);
+
+ /* opera 11.10+ */
+ background: -o-radial-gradient(circle at 3% 25%, rgba(139, 130, 47, 1) 0%, rgba(206, 186, 57, 1) 100%);
+
+ /* ie 10+ */
+ background: -ms-radial-gradient(circle at 3% 25%, rgba(139, 130, 47, 1) 0%, rgba(206, 186, 57, 1) 100%);
+
+ /* global 92%+ browsers support */
+ background: radial-gradient(circle at 3% 25%, rgba(139, 130, 47, 1) 0%, rgba(206, 186, 57, 1) 100%);
+
+  
+   padding-top: 7rem;
+   font-size: 0.9rem;
+   color: var(--test);
+}
+
+.footer_container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 6rem;
+   padding-left: 20px;
+}
+.our_partners{
+    margin-left: 100px;
+}
+
+.footer_container article{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap:0.7rem;
+ 
+}
+.footer_container .logo img{
+    width:50%;
+} 
+.footer_container p{
+   margin-top: 0.5rem;
+   color: white;
+  
+}
+.footer_container article h4{
+   margin-bottom: 0.6rem;
+   font-size: 1rem;
+}
+.footer_socials{
+   margin-top: 1.5rem;
+   display: flex;
+   gap:1rem;
+   align-items: center;
+}
+.footer_socials a{
+   background-color: white;
+   padding: 0.7rem;
+   border:1px solid transparent;
+   border-radius: 0.6rem;
+   transition: var(--transition);
+}
+
+.footer_socials a svg{
+   color: var(--test);
+}
+.footer_socials a:hover svg{
+   color: white;
+}
+.footer_socials a:hover{
+   border-color:
+   #b5a536;
+   background: transparent;
+   color: black;
+}
+
+.footer_copyright{
+   color: black;
+   text-align: center;
+   padding: 1.5rem 0;
+   border-top: 2px solid;
+   margin-top: 5rem;
+}
+ 

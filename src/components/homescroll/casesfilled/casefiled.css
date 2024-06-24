@@ -1,0 +1,125 @@
+.wrapper{
+
+  
+    width:100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+    position: relative;
+   margin-top: -21px;
+   
+   
+   
+}
+.wrapper h1{
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper::after{
+    content: '';
+    inset:0;
+    z-index: -1;
+    opacity: .2;
+    background-image: url('../../resources//images/legalandeducation.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+   
+    position: absolute;
+    
+    
+   
+}
+.wrapper-two{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    
+    position: relative;
+   margin-top: -21px;
+   margin-bottom: -21px;
+}
+.case-filed{
+    
+    width: 30vmin;
+    height:30vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    font-size: 16px;
+    background-color: #21242b;
+    border-bottom: 10px solid #C0AE37;
+   
+}
+.i{
+ color:#8B822F;
+ font-size: 2.5em;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+span.num{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 3em;
+
+}
+span.text{
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    padding: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+}
+
+ @media(max-width:1024px){
+    .wrapper{
+        width: 85vw;
+    }
+    .case-filed{
+        height: 26vmin;
+        width:26vmin;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .wrapper{
+        width: 90vw;
+        flex-wrap: wrap;
+        gap:30px;
+    
+    }
+    .case-filed{
+        width:calc(50% -40px);
+        height: 30vmin;
+        font-size: 14px;
+    }
+}
+@media(max-width:480px){
+    .wrapper{
+        gap:15px;
+    
+    }
+    .case-filed{
+        width:100%;
+        height: 25vmin;
+        font-size: 8px;
+    }
+} 

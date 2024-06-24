@@ -1,0 +1,23 @@
+.faqs{
+    background: #43906D;
+    height: auto;
+}
+.faqs_container .faqs_container-sectionhead h1{
+   padding-top: 20px;
+   text-align: center !important;
+   margin-left: 650px;
+}
+.faqs_wrapper{
+    margin-top: 1rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1.5rem;
+   
+}
+
+@media(max-width:600px){
+    .faqs{
+        background: #43906D;
+        height: auto;
+    }
+}
